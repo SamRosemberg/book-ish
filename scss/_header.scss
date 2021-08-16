@@ -1,0 +1,16 @@
+.header__logo {
+    width: 10%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 1s;
+}
+
+.header__logo:hover {
+    width: 20%;
+    height: auto;
+}
+
+.header__fondo {
+    background-image: url(../imagenes/dameros.png);
+}

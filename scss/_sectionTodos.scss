@@ -1,0 +1,28 @@
+@mixin sizesImg {
+    height: 300px;
+    width: 30px;
+}
+
+.cardImg {
+    @include sizesImg;
+}
+
+$btnMap: (saga:rgb(199, 93, 111), solo:rgb(50, 141, 129));
+
+@each $boton, $color in $btnMap {
+    .btn--#{$boton}{
+        background-color: $color;
+    }
+}
+
+$colorModal: rgb(24, 23, 23); 
+
+.modi {
+    color: $colorModal;
+}
+
+.modi--titulo {
+    @extend .modi;
+    font-size: 2rem;
+}
+

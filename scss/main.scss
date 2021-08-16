@@ -1,0 +1,19 @@
+@import "header";
+@import "navbar";
+@import "sectionIndex";
+@import "sectionRecomendaciones";
+@import "sectionDiez";
+@import "sectionConseguilo";
+@import "sectionTodos";
+@import "sectionContacto";
+@import "footer";
+
+// Body
+
+body {
+    color: whitesmoke;
+}
+
+.bg-grey {
+    background-color: gray;
+}

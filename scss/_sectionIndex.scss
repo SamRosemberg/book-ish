@@ -1,0 +1,42 @@
+div h4 {
+    font-size: 2rem;
+    transition: 1s;
+}
+
+div h4:hover {
+font-size: 3rem;
+}
+
+.section__elegido {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+
+.section__sobreMi {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 990px) {
+    .section__sobreMi {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+$fontBebas: bebasNevue;
+$fontSize: 200%;
+
+@mixin fontFamily ($fontBebas, $fontSize) {
+    font-family: $fontBebas;
+    font-size: $fontSize;
+}
+
+.titulosIndex {
+    @include fontFamily(bebasNevue, 200%);
+}

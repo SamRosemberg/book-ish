@@ -1,0 +1,19 @@
+.conseguir {
+    width: 75%;
+    height: 30%;
+}
+
+.fotoConseguilo {
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+$bgMap: (bookdepository: rgb(71, 163, 216), amazon:rgb(228, 121, 17), cuspide:rgb(217,221,107), tematika:rgb(15,82,186),);
+
+@each $boton, $color in $bgMap {
+    .bg--#{$boton}{
+        background-color: $color;
+    }
+}
+

@@ -1,0 +1,122 @@
+.header__logo {
+  width: 10%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 1s; }
+
+.header__logo:hover {
+  width: 20%;
+  height: auto; }
+
+.header__fondo {
+  background-image: url(../imagenes/dameros.png); }
+
+.navbar__font {
+  font-family: bebasNevue;
+  font-size: 2rem; }
+
+.navbar__font-size {
+  font-size: 1rem; }
+
+@font-face {
+  font-family: bebasNevue;
+  src: url(../funtes/bebasNevue.ttf); }
+
+div h4 {
+  font-size: 2rem;
+  transition: 1s; }
+
+div h4:hover {
+  font-size: 3rem; }
+
+.section__elegido {
+  width: 100%;
+  height: auto;
+  margin: 2px; }
+
+.section__sobreMi {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5px; }
+
+@media (max-width: 990px) {
+  .section__sobreMi {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%; } }
+
+.titulosIndex {
+  font-family: bebasNevue;
+  font-size: 200%; }
+
+.secion__carousel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  margin-right: 25%; }
+
+td img {
+  width: 70px;
+  height: auto; }
+
+.conseguir {
+  width: 75%;
+  height: 30%; }
+
+.fotoConseguilo {
+  width: 400px;
+  height: 200px;
+  border-radius: 30px; }
+
+.bg--bookdepository {
+  background-color: #47a3d8; }
+
+.bg--amazon {
+  background-color: #e47911; }
+
+.bg--cuspide {
+  background-color: #d9dd6b; }
+
+.bg--tematika {
+  background-color: #0f52ba; }
+
+.cardImg {
+  height: 300px;
+  width: 30px; }
+
+.btn--saga {
+  background-color: #c75d6f; }
+
+.btn--solo {
+  background-color: #328d81; }
+
+.modi, .modi--titulo {
+  color: #181717; }
+
+.modi--titulo {
+  font-size: 2rem; }
+
+.form__div {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: grey;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.footer__iconos {
+  color: whitesmoke;
+  font-size: 1rem; }
+
+.footer__iconos-size {
+  font-size: 2rem; }
+
+body {
+  color: whitesmoke; }
+
+.bg-grey {
+  background-color: gray; }
