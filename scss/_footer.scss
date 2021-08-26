@@ -6,3 +6,9 @@
 .footer__iconos-size {
     font-size: 2rem;
 }
+
+.footerPc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
