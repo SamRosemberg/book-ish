@@ -3,11 +3,16 @@
     font-size: 2rem;
 } 
 
-.navbar__font-size {
-    font-size: 1rem;
+.navbarFont {
+    font-family: king;
 }
 
 @font-face {
     font-family: bebasNevue;
     src: url(../funtes/bebasNevue.ttf);
+}
+
+@font-face {
+    font-family: king;
+    src: url(../funtes/king.ttf);
 }
