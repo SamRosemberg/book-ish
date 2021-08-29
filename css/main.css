@@ -16,12 +16,17 @@
   font-family: bebasNevue;
   font-size: 2rem; }
 
-.navbar__font-size {
-  font-size: 1rem; }
+.navbar__font-king {
+  font-family: king;
+  font-size: 1.2rem; }
 
 @font-face {
   font-family: bebasNevue;
   src: url(../funtes/bebasNevue.ttf); }
+
+@font-face {
+  font-family: king;
+  src: url(../funtes/king.ttf); }
 
 div h4 {
   font-size: 2rem;
@@ -78,7 +83,7 @@ td img {
   background-color: #e47911; }
 
 .bg--cuspide {
-  background-color: #d9dd6b; }
+  background-color: #197748; }
 
 .bg--tematika {
   background-color: #0f52ba; }
@@ -88,10 +93,10 @@ td img {
   width: 30px; }
 
 .btn--saga {
-  background-color: #c75d6f; }
+  background-color: #0d1135; }
 
 .btn--solo {
-  background-color: #328d81; }
+  background-color: #1c1f1e; }
 
 .modi, .modi--titulo {
   color: #181717; }
@@ -120,3 +125,25 @@ body {
 
 .bg-grey {
   background-color: gray; }
+
+.c-azul {
+  color: #0b0b3f; }
+
+.c-gris {
+  color: #292727; }
+
+.bg-azul {
+  background-color: #0b0b3f; }
+
+.bg-gris {
+  background-color: #292727; }
+
+.c-white {
+  color: whitesmoke; }
+
+.font {
+  font-family: king; }
+
+@font-face {
+  font-family: king;
+  src: url(../funtes/king.ttf); }

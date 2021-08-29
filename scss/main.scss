@@ -17,3 +17,32 @@ body {
 .bg-grey {
     background-color: gray;
 }
+
+.c-azul {
+    color: rgb(11, 11, 63);
+}
+
+.c-gris {
+    color: rgb(41, 39, 39);
+}
+
+.bg-azul {
+    background-color: rgb(11, 11, 63);
+}
+
+.bg-gris {
+    background-color: rgb(41, 39, 39);
+}
+
+.c-white {
+    color: whitesmoke;
+}
+
+.font {
+    font-family: king;
+}
+
+@font-face {
+    font-family: king;
+    src: url(../funtes/king.ttf);
+}

@@ -9,7 +9,7 @@
     border-radius: 30px;
 }
 
-$bgMap: (bookdepository: rgb(71, 163, 216), amazon:rgb(228, 121, 17), cuspide:rgb(217,221,107), tematika:rgb(15,82,186),);
+$bgMap: (bookdepository: rgb(71, 163, 216), amazon:rgb(228, 121, 17), cuspide:rgb(25, 119, 72), tematika:rgb(15,82,186),);
 
 @each $boton, $color in $bgMap {
     .bg--#{$boton}{
