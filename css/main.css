@@ -104,6 +104,21 @@ td img {
 .modi--titulo {
   font-size: 2rem; }
 
+.c-azul {
+  color: #0b0b3f; }
+
+.c-gris {
+  color: #292727; }
+
+.bg-azul {
+  background-color: #0b0b3f; }
+
+.bg-gris {
+  background-color: #292727; }
+
+.c-white {
+  color: whitesmoke; }
+
 .form__div {
   width: 50%;
   height: auto;
@@ -125,21 +140,6 @@ body {
 
 .bg-grey {
   background-color: gray; }
-
-.c-azul {
-  color: #0b0b3f; }
-
-.c-gris {
-  color: #292727; }
-
-.bg-azul {
-  background-color: #0b0b3f; }
-
-.bg-gris {
-  background-color: #292727; }
-
-.c-white {
-  color: whitesmoke; }
 
 .font {
   font-family: king; }
