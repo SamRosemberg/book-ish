@@ -7,6 +7,14 @@
     @include sizesImg;
 }
 
+.cardImg:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
 $btnMap: (saga:rgb(13, 17, 53), solo:rgb(28, 31, 30));
 
 @each $boton, $color in $btnMap {

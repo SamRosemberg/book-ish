@@ -9,6 +9,12 @@
     border-radius: 30px;
 }
 
+.fotoConseguilo:hover {
+    border-radius: 50%;
+    filter: blur(3px);
+    transition: 1.5s;
+}
+
 $bgMap: (bookdepository: rgb(71, 163, 216), amazon:rgb(228, 121, 17), cuspide:rgb(25, 119, 72), tematika:rgb(15,82,186),);
 
 @each $boton, $color in $bgMap {

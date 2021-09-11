@@ -10,15 +10,16 @@
   height: auto; }
 
 .header__fondo {
-  background-image: url(../imagenes/dameros.png); }
+  background-image: url(../imagenes/dameros.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .navbar__font {
   font-family: bebasNevue;
   font-size: 2rem; }
 
 .navbar__font-king {
-  font-family: king;
-  font-size: 1.2rem; }
+  font-size: 1.1rem; }
 
 @font-face {
   font-family: bebasNevue;
@@ -40,12 +41,18 @@ div h4:hover {
   height: auto;
   margin: 2px; }
 
+.section__elegido:hover {
+  filter: saturate(200%); }
+
 .section__sobreMi {
   width: 60%;
   height: auto;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 5px; }
+
+.section__sobreMi:hover {
+  filter: saturate(150%); }
 
 @media (max-width: 990px) {
   .section__sobreMi {
@@ -61,6 +68,13 @@ div h4:hover {
   margin-top: 5px;
   margin-bottom: 5px; }
 
+.imagenCarousel {
+  width: 100%;
+  height: 70%; }
+
+.imagenCarousel:hover {
+  filter: opacity(0.4); }
+
 td img {
   width: 70px;
   height: auto; }
@@ -73,6 +87,11 @@ td img {
   width: 400px;
   height: 200px;
   border-radius: 30px; }
+
+.fotoConseguilo:hover {
+  border-radius: 50%;
+  filter: blur(3px);
+  transition: 1.5s; }
 
 .bg--bookdepository {
   background-color: #47a3d8; }
@@ -89,6 +108,13 @@ td img {
 .cardImg {
   height: 300px;
   width: 30px; }
+
+.cardImg:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transition: 1s; }
 
 .btn--saga {
   background-color: #0d1135; }
